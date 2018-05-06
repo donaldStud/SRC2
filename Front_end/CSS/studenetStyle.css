@@ -1,0 +1,274 @@
+/*----------------------------------------------------------------------------------------------------*/
+/* !Actor : aDiela 																					  */
+/* File  : StudenetMain.css 																		  */
+/*----------------------------------------------------------------------------------------------------*/
+div {
+ 
+    text-align:center;
+ 
+    }
+table
+{
+    margin: 0 ; 
+}
+#bloc_page{
+ width: 100% ;
+ height:120px;  
+
+}
+/**/
+#header{
+	display: inline-block;
+	background:#19c;           /*Format Couleur : RGB */
+	width: 100%;
+	margin: auto;
+}
+
+#foot{
+	display: inline-block;
+	/*background:#19c;*/           /*Format Couleur : RGB */
+	width: 100%;
+	/*margin: auto;*/
+}
+
+#main_title01
+{
+  float: left;
+   width: 80%;
+    height: auto;
+}
+#main_title02
+{
+    float: right;
+    width:20%;
+    height: auto;
+    
+   /* height: 100%;*/
+}
+/*#main_title, header h1{
+	display: inline-block;
+	font-family: arial;*/
+	/*font-weight: bold;*/
+	/*font-size: 50px;
+	text-align: left;
+	margin-left: 50px;
+}*/
+
+/* Navigation 
+nav{
+	display: inline-block;
+	width: 950px;
+	text-align: right;
+	margin-right: 1px;
+}
+*/
+/**/
+#pwforgetten{
+
+	width: 830px;
+	text-align: right;
+	margin-right: 20px;
+}
+/**/
+#inscription{
+	display: inline-block;
+	width: 500px;
+	margin-left: 500px;								/*Début de la marge par la gauche*/
+	padding: 0;
+	background:#888;          						/*Format Couleur : RGB */
+    text-align: center;
+}
+setion{
+    
+    text-align: center;
+    margin: auto;
+    
+}
+
+/**/
+#subs_title1{
+	text-align: center;
+	font-family: verdana;
+	color: black;
+	padding: 0;
+
+}
+/**/
+#subs_title2{
+	text-align: center;
+	font-family: verdana;
+	color: black;
+	padding: 0;
+}
+#text{padding: auto;}
+#submit{text-align: center;}
+section p{	color: black;}
+
+footer{
+	/*display: inline-block;
+	background:#19c;           
+	width: 1400px;
+	color: red;
+	margin-top: 500px;*/
+	width: 1340px;
+	display: inline-block;
+	background:#80c0f0;           						
+	margin-top:900px;
+	font-family: verdana;
+    font-style: italic;
+	color: black;
+	text-align: center;
+	padding: 0;
+	bottom: 0;
+}
+/*Formatage link contact--*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background:  
+   linear-gradient( #400080, transparent), 
+   linear-gradient(200deg, #d047d1, #ff0000,  #ffff00);
+}
+/*.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}*/
+/*.fa-rss:hover {
+    background-color: #eb8231;
+}*/
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+/*.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}*/
+
+/* Définition des polices personnalisées */
+/*@font-face
+{
+font-family: 'BallparkWeiner';
+src: url('polices/ballpark.eot');
+src: url('polices/ballpark.eot?#iefix') format('embeddedopentype'),
+url('polices/ballpark.woff') format('woff'),
+url('polices/ballpark.ttf') format('truetype'),
+url('polices/ballpark.svg#BallparkWeiner') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face
+{
+font-family: 'Dayrom';
+src: url('polices/dayrom.eot');
+src: url('polices/dayrom.eot?#iefix') format('embeddedopentype'),
+url('polices/dayrom.woff') format('woff'),
+url('polices/dayrom.ttf') format('truetype'),
+url('polices/dayrom.svg#Dayrom') format('svg');
+font-weight: normal;
+font-*/
